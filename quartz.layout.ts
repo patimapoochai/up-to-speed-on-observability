@@ -38,7 +38,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+        sortFn: (a, b) => {
+          return a.displayName.localeCompare(b.displayName)
+        },
+    }),
   ],
   right: [
     Component.Graph(),
