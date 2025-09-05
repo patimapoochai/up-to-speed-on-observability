@@ -1,5 +1,5 @@
 ---
-title: Day 1
+title: What I've learned before the challenge (Day 0)
 draft: false
 tags:
   - days
